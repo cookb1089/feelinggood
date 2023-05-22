@@ -1,0 +1,99 @@
+.adthrive-ad {
+overflow: visible !important;
+}
+
+body.adthrive-device-desktop .wprm-recipe-template-fgf-recipe .wprm-recipe-ingredients-container:after,
+body.adthrive-device-tablet .wprm-recipe-template-fgf-recipe .wprm-recipe-ingredients-container:after  {
+  clear: right;
+}
+
+.adthrive-device-desktop .adthrive-recipe, 
+.adthrive-device-tablet .adthrive-recipe {
+float: right !important;
+margin-left: 10px !important;
+clear: both;
+}
+
+body.archive .adthrive-content {
+  grid-column: 1 / -1;
+}
+
+.adthrive-ccpa-link, 
+.adthrive-ccpa-link span, 
+.adthrive-footer-message span, 
+.adthrive-privacy-preferences a {
+  color: #525252;
+}
+
+.adthrive-footer-message {
+  margin-bottom: 90px;
+  padding-bottom: 10px;
+}
+
+body.adthrive-device-desktop:not(.wprm-print-recipe) .adthrive-comscore {
+  margin-top: -60px;
+}
+
+body.wprm-print-recipe .adthrive-comscore {
+  display: none;
+}
+
+body.adthrive-device-desktop.wprm-print-recipe #wprm-print-content,
+body.adthrive-device-tablet.wprm-print-recipe #wprm-print-content {
+  margin-bottom: 100px;
+}
+
+body.adthrive-device-phone.wprm-print-recipe #wprm-print-content {
+  margin-bottom: 50px;
+}
+
+a.scroll.button {
+bottom: 110px !important;
+}
+
+body.single .adthrive-sidebar.adthrive-stuck {
+margin-top: 100px !important;
+}
+
+.adthrive-device-desktop .adthrive-collapse-player {
+width: 88% !important;
+margin-left: 0 !important;
+margin-right: 0 !important;
+justify-items: left !important;
+}
+
+/*163472*/
+body.archive .adthrive-content {
+grid-column: 1 / -1;
+}
+/*163472 end*/
+
+.adthrive-device-phone .adthrive-footer {
+padding-bottom: 10px;
+}
+
+/* Top Center White Background */
+.adthrive-collapse-mobile-background {
+background-color: #fff!important;
+}
+.adthrive-top-collapse-close > svg > * {
+stroke: black;
+font-family: sans-serif;
+}
+/* END top center white background */
+
+.adthrive-player-position.adthrive-collapse-mobile.adthrive-collapse-top-center.adthrive-player-without-wrapper-text {
+padding:0 !important;
+}
+
+body.single .adthrive-player-position.adthrive-collapse-mobile.adthrive-collapse-top-center,
+.adthrive-collapse-mobile-background{
+margin-top: 0px !important;
+}
+
+.adthrive-player-position.adthrive-collapse-mobile.adthrive-collapse-top-center,
+.adthrive-collapse-mobile-background {
+z-index: 999999!important;
+}
+
+
